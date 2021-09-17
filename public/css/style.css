@@ -1,0 +1,256 @@
+* {
+  font-family: 'Glory', sans-serif;
+}
+
+/*--------------------HEADER------------------------*/
+header nav {
+  font-size: 20px;
+  font-weight: bold;
+  border-top: 2px solid #66c73f;
+  border-bottom: 2px solid #66c73f;
+}
+
+header nav img {
+  width: 60px;
+  height: 50px;
+}
+
+header nav h4 {
+  text-align: center;
+  color: #66c73f;
+  font-weight: bold;
+}
+
+header nav .login-logo {
+  color: #1c8eda;
+}
+
+.X {
+  color: #973cc2;
+  font-weight: bold;
+}
+
+.treme {
+  color: #e49d19;
+}
+
+.news {
+  color: #973cc2;
+}
+
+/*-------------------PAGE HOME ------------------------*/
+.title {
+  background-image: url(../img/Xtreme_main.jpg);
+  height: 800px;
+  text-align: center;
+  border-bottom: 2px solid #66c73f;
+}
+
+.title h1 {
+  color: #1c942c;
+  padding-top: 250px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#ego {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  color: #973cc2;
+}
+
+.treat {
+  width: 300px;
+  height: 2px;
+  background-color: #e49d19;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#section-article img {
+  width: 500px;
+}
+
+#section-article article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 80px 0 50px 0;
+}
+
+#section-article .text-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 50px;
+}
+
+#section-article .text-article h3 {
+  font-weight: bold;
+}
+
+#section-article .text-article .corps {
+  margin-top: 20px;
+}
+
+#section-article .text-article .date-article {
+  font-size: 15px;
+  font-style: italic;
+}
+
+/*----------------------PAGE ADMINISTRAEUR ------------------------*/
+.admin-brand {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#nav-admin a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*----------------------PAGE ARTICLES ------------------------*/
+.h1-admin {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/*----------------------PAGE USER, SPORT ET ARTICLES------------------------*/
+#affich {
+  font-size: 20px;
+}
+
+#affich .table {
+  margin-bottom: 50px;
+}
+
+#affich a {
+  text-decoration: none;
+}
+
+#affich .voir {
+  color: #66c73f;
+}
+
+#affich .modif {
+  color: #973cc2;
+  margin-left: 15px;
+}
+
+.valid-btn {
+  color: #e49d19;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*----------------------FOOTER ------------------------*/
+footer {
+  margin-top: 80px;
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/ecume.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 2px solid #08384b;
+  border-bottom: 2px solid #08384b;
+}
+
+footer #coord {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer #coord .adress-icon {
+  color: #973cc2;
+}
+
+footer #coord .phone-icon {
+  color: #e49d19;
+}
+
+footer #coord .mail-icon {
+  color: #66c73f;
+}
+
+footer #trait {
+  width: 300px;
+  height: 2px;
+  background-color: #e49d19;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: -40px;
+}
+
+footer #bottom-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #bottom-footer a {
+  text-decoration: none;
+}
+
+footer #bottom-footer img {
+  width: 60px;
+  height: 50px;
+}
+
+footer #bottom-footer h4 {
+  text-align: center;
+  color: #66c73f;
+  font-weight: bold;
+}
+
+footer #bottom-footer .copyright {
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*-------------------------RESPONSIVE----------------------*/
+@media screen and (max-width: 1000px) {
+  #section-article article {
+    display: block;
+  }
+  #section-article img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #section-article article .corps {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

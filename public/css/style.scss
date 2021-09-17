@@ -1,0 +1,286 @@
+*
+{
+    font-family: 'Glory', sans-serif;
+    
+}
+/*--------------------HEADER------------------------*/
+header
+{
+       
+        nav
+        {
+            font-size: 20px;
+            font-weight: bold;
+            border-top: 2px solid rgb(102, 199, 63);
+            border-bottom: 2px solid rgb(102, 199, 63);
+                img
+                {
+                    width: 60px;
+                    height: 50px;
+                }
+                h4
+                {
+                    text-align: center;
+                    color: rgb(102, 199, 63);
+                    font-weight: bold;
+                }
+                .login-logo
+                {
+                    color: rgb(28, 142, 218);
+                }
+        }        
+}
+
+.X
+        {
+            color: rgb(151, 60, 194);
+            font-weight: bold;
+        }
+        .treme
+        {
+            color: rgb(228, 157, 25);
+        }
+        .news
+        {
+            color: rgb(151, 60, 194);
+        }
+
+/*-------------------PAGE HOME ------------------------*/
+
+.title
+        {
+            background-image: url(../img/Xtreme_main.jpg);
+            height: 800px;
+            text-align: center;
+            border-bottom: 2px solid rgb(102, 199, 63);
+        
+                h1
+                {
+                    color: rgb(28, 148, 44);
+                    padding-top: 250px;
+                    font-size: 60px;
+                    font-weight: bold;
+                }
+        }
+
+#ego
+{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(151, 60, 194);
+    }
+        
+.treat
+{
+    width: 300px;
+    height: 2px;
+    background-color: rgb(228, 157, 25);
+    margin: auto;
+    margin-top: 50px;
+}
+
+#section-article
+{
+    img
+            {
+                width: 500px;
+            }
+    article
+    {
+        display: flex;
+        margin: 80px 0 50px 0;
+        
+            
+    }
+
+        .text-article
+        {
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+
+                h3
+                {
+                    font-weight: bold;
+                }
+                .corps
+                {
+                    margin-top: 20px;
+                }
+                .date-article
+                {
+                    font-size: 15px;
+                    font-style: italic;
+                }
+        }
+}
+
+
+/*----------------------PAGE ADMINISTRAEUR ------------------------*/
+
+.admin-brand
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-admin
+{
+    a
+    {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+/*----------------------PAGE ARTICLES ------------------------*/
+
+.h1-admin
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/*----------------------PAGE USER, SPORT ET ARTICLES------------------------*/
+#affich
+{
+    font-size: 20px;
+
+        .table
+        {
+            margin-bottom: 50px;
+        }
+
+        a
+        {
+            text-decoration: none;
+        }
+
+        .voir
+        {
+            color: rgb(102, 199, 63);
+        }
+
+        .modif
+        {
+            color: rgb(151, 60, 194);
+            margin-left: 15px;
+        }
+}
+
+.valid-btn
+{
+    color: rgb(228, 157, 25);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*----------------------FOOTER ------------------------*/
+footer
+{
+    margin-top: 80px;
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/ecume.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 2px solid rgb(8, 56, 75);
+    border-bottom: 2px solid rgb(8, 56, 75);
+
+        #coord
+        {
+            height: 200px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 20px;
+            font-weight: bold;
+
+            .adress-icon
+            {
+                color: rgb(151, 60, 194);
+
+            }
+            .phone-icon
+            {
+                color: rgb(228, 157, 25);
+            }
+            .mail-icon
+            {
+                color: rgb(102, 199, 63);
+            }
+        }
+        #trait
+        {
+            width: 300px;
+            height: 2px;
+            background-color: rgb(228, 157, 25);
+            margin: auto;
+            margin-bottom: 40px;
+            margin-top: -40px;
+        }
+        #bottom-footer
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                a
+                {
+                    text-decoration: none;
+                }
+                img
+                {
+                    width: 60px;
+                    height: 50px;
+                }
+                h4
+                {
+                    text-align: center;
+                    color: rgb(102, 199, 63);
+                    font-weight: bold;
+                }
+                .copyright
+                {
+                    margin-left: 40px;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+        }
+}
+
+
+/*-------------------------RESPONSIVE----------------------*/
+
+@media screen and (max-width:1000px)
+{
+    #section-article
+    {
+        article
+        {
+            display: block;
+        }
+        img
+        {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:750px)
+{
+    #section-article
+    {
+        article
+        {
+            .corps
+            {
+                font-size: 20px;
+            }
+        }
+    }
+}
